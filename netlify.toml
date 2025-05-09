@@ -1,0 +1,13 @@
+# base = "site" # Commenting out base as it seems to cause issues
+
+[build]
+  command = "cd site && npm install && npm run build"
+  publish = "site/_site" # Path from repo root
+
+[build.environment]
+  NODE_VERSION = "18" # Or your preferred Node.js version
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

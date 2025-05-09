@@ -15,3 +15,6 @@ pom.xml.asc
 
 **/node_modules/
 site/_site/
+
+# Local Netlify folder
+.netlify
