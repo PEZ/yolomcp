@@ -163,12 +163,16 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-// Add some parallax effect to the hero section
+// Add some parallax effect to the hero section, but only on larger screens
 window.addEventListener('scroll', () => {
   const scrollPosition = window.scrollY;
   const heroSection = document.querySelector('.hero-parallax');
 
-  if (heroSection && scrollPosition < window.innerHeight) {
+  // Only apply parallax on screens wider than 768px (md breakpoint in Tailwind)
+  if (heroSection && scrollPosition < window.innerHeight && window.innerWidth > 768) {
     heroSection.style.transform = `translateY(${scrollPosition * 0.3}px)`;
+  } else if (heroSection) {
+    // Reset transform for mobile to avoid layout issues
+    heroSection.style.transform = 'none';
   }
 });
