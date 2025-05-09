@@ -5,7 +5,7 @@ layout: base.njk
 
 <!-- Hero Section -->
 <section class="bg-gradient-to-br from-primary to-purple-700 text-white py-20 md:py-32">
-  <div class="container mx-auto px-4">
+  <div class="container max-w-8xl mx-auto px-4">
     <div class="flex flex-col md:flex-row items-center">
       <div class="md:w-1/2 mb-10 md:mb-0 animate-on-scroll">
         <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
@@ -46,7 +46,7 @@ layout: base.njk
 
 <!-- Features Section -->
 <section id="features" class="py-20 bg-white bg-pattern">
-  <div class="container mx-auto px-4">
+  <div class="container max-w-8xl mx-auto px-4">
     <div class="text-center mb-16 animate-on-scroll">
       <h2 class="text-3xl md:text-4xl font-bold mb-4 gradient-text">Powerful Features</h2>
       <p class="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -54,7 +54,7 @@ layout: base.njk
       </p>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 stagger-animation">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 stagger-animation">
       <!-- Feature 1 -->
       <div class="bg-gray-50 rounded-xl p-8 shadow-lg hover-lift">
         <div class="text-primary text-4xl mb-4">
@@ -93,7 +93,7 @@ layout: base.njk
 
 <!-- Benefits Section with Comparison -->
 <section id="benefits" class="py-20 bg-gray-50">
-  <div class="container mx-auto px-4">
+  <div class="container max-w-8xl mx-auto px-4">
     <div class="text-center mb-16 animate-on-scroll">
       <h2 class="text-3xl md:text-4xl font-bold mb-4 gradient-text">Why YOLO MCP?</h2>
       <p class="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -149,7 +149,7 @@ layout: base.njk
 
 <!-- Pricing Section -->
 <section id="pricing" class="py-20 bg-white bg-pattern">
-  <div class="container mx-auto px-4">
+  <div class="container max-w-8xl mx-auto px-4">
     <div class="text-center mb-16 animate-on-scroll">
       <h2 class="text-3xl md:text-4xl font-bold mb-4 gradient-text">Simple, Transparent Pricing</h2>
       <p class="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -157,7 +157,7 @@ layout: base.njk
       </p>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 stagger-animation">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 stagger-animation">
       <!-- Starter Plan -->
       <div class="border border-gray-200 rounded-xl p-8 shadow-lg hover-lift flex flex-col">
         <div class="mb-8">
@@ -271,7 +271,7 @@ layout: base.njk
 
 <!-- Call to Action -->
 <section id="contact" class="py-20 bg-gradient-to-br from-primary to-purple-700 text-white">
-  <div class="container mx-auto px-4">
+  <div class="container max-w-8xl mx-auto px-4">
     <div class="max-w-3xl mx-auto text-center animate-on-scroll">
       <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your MCP Experience?</h2>
       <p class="text-xl mb-8">
@@ -298,7 +298,7 @@ layout: base.njk
 
 <!-- Testimonials/Future Section -->
 <section class="py-20 bg-white">
-  <div class="container mx-auto px-4">
+  <div class="container max-w-8xl mx-auto px-4">
     <div class="text-center mb-16 animate-on-scroll">
       <h2 class="text-3xl md:text-4xl font-bold mb-4 gradient-text">Built for the Future</h2>
       <p class="text-xl text-gray-600 max-w-3xl mx-auto">
