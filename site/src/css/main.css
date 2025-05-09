@@ -183,6 +183,13 @@ pre code {
 /* Add smooth scrolling to the whole document */
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden; /* Prevent horizontal scrolling on html */
+  width: 100%; /* Ensure html element does not exceed viewport width */
+}
+
+body {
+  overflow-x: hidden; /* Prevent horizontal scrolling on the body */
+  width: 100%; /* Ensure body element does not exceed html/viewport width */
 }
 
 /* Add a subtle background pattern */
