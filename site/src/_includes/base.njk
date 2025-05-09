@@ -23,20 +23,6 @@
           },
           fontFamily: {
             sans: ['Inter', 'sans-serif'],
-          },
-          maxWidth: {
-            '8xl': '90rem',
-          }
-        },
-        container: {
-          center: true,
-          padding: '1rem',
-          screens: {
-            sm: '640px',
-            md: '768px',
-            lg: '1024px',
-            xl: '1280px',
-            '2xl': '1536px',
           }
         }
       }
@@ -49,7 +35,7 @@
 </head>
 <body class="font-sans bg-gray-50 text-gray-900 min-h-screen flex flex-col">
   <header class="sticky top-0 z-50 bg-white shadow-sm">
-    <nav class="container max-w-8xl mx-auto px-4 py-4 flex justify-between items-center">
+    <nav class="w-full max-w-[1600px] mx-auto px-2 sm:px-4 py-4 flex justify-between items-center">
       <a href="/" class="text-2xl font-bold text-primary flex items-center">
         <span class="mr-2"><i class="fas fa-server"></i></span>
         YOLO<span class="text-secondary">MCP</span>
@@ -64,7 +50,7 @@
         <i class="fas fa-bars"></i>
       </button>
     </nav>
-    <div class="md:hidden hidden bg-white w-full px-4 py-4 shadow-md" id="mobile-menu">
+    <div class="md:hidden hidden bg-white w-full px-2 sm:px-4 py-4 shadow-md" id="mobile-menu">
       <div class="flex flex-col space-y-3">
         <a href="#features" class="hover:text-primary transition">Features</a>
         <a href="#benefits" class="hover:text-primary transition">Benefits</a>
@@ -79,7 +65,7 @@
   </main>
 
   <footer class="bg-dark text-white mt-auto">
-    <div class="container mx-auto px-4 py-8">
+    <div class="w-full max-w-[1600px] mx-auto px-2 sm:px-4 py-8">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
           <h3 class="text-xl font-bold mb-4">YOLO<span class="text-secondary">MCP</span></h3>

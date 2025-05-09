@@ -5,7 +5,7 @@ layout: base.njk
 
 <!-- Hero Section -->
 <section class="bg-gradient-to-br from-primary to-purple-700 text-white py-20 md:py-32">
-  <div class="container max-w-8xl mx-auto px-4">
+  <div class="w-full max-w-[1600px] mx-auto px-2 sm:px-4">
     <div class="flex flex-col md:flex-row items-center">
       <div class="md:w-1/2 mb-10 md:mb-0 animate-on-scroll">
         <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
@@ -23,10 +23,9 @@ layout: base.njk
           </a>
         </div>
       </div>
-      <div class="md:w-1/2 hero-parallax">
-        <div class="relative">
-          <div class="glass-effect p-6 rounded-xl shadow-2xl">
-            <pre class="text-gray-100 text-sm overflow-auto"><code>{:model-context [{:content "User is asking about functional programming"}
+      <div class="md:w-1/2 hero-parallax overflow-hidden relative pb-8 md:pb-0">
+        <div class="glass-effect p-6 rounded-xl shadow-2xl">
+          <pre class="text-gray-100 text-sm overflow-auto w-full"><code>{:model-context [{:content "User is asking about functional programming"}
               {:content "User has mentioned immutable data structures"}]
  :response-options {:style :concise}
  :model-fn (fn [ctx]
@@ -34,10 +33,9 @@ layout: base.njk
                   (filter relevant?)
                   (map transform-context)
                   (generate-response)))}</code></pre>
-          </div>
-          <div class="absolute -bottom-4 -right-4 bg-secondary text-white text-xs px-3 py-1 rounded-full">
-            YOLO MCP
-          </div>
+        </div>
+        <div class="absolute bottom-4 right-4 bg-secondary text-white text-xs px-3 py-1 rounded-full">
+          YOLO MCP
         </div>
       </div>
     </div>
@@ -46,17 +44,17 @@ layout: base.njk
 
 <!-- Features Section -->
 <section id="features" class="py-20 bg-white bg-pattern">
-  <div class="container max-w-8xl mx-auto px-4">
-    <div class="text-center mb-16 animate-on-scroll">
+  <div class="w-full max-w-[1600px] mx-auto px-2 sm:px-4">
+    <div class="text-center mb-16 animate-on-scroll max-w-3xl mx-auto">
       <h2 class="text-3xl md:text-4xl font-bold mb-4 gradient-text">Powerful Features</h2>
-      <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+      <p class="text-xl text-gray-600">
         YOLO MCP combines the best of functional programming with modern model context protocols.
       </p>
     </div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 stagger-animation">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 stagger-animation">
       <!-- Feature 1 -->
-      <div class="bg-gray-50 rounded-xl p-8 shadow-lg hover-lift">
+      <div class="bg-gray-50 rounded-xl p-8 shadow-lg hover-lift w-full">
         <div class="text-primary text-4xl mb-4">
           <i class="fas fa-code"></i>
         </div>
@@ -65,9 +63,8 @@ layout: base.njk
           Built on immutable data structures for predictable state management and easier debugging.
         </p>
       </div>
-
       <!-- Feature 2 -->
-      <div class="bg-gray-50 rounded-xl p-8 shadow-lg hover-lift">
+      <div class="bg-gray-50 rounded-xl p-8 shadow-lg hover-lift w-full">
         <div class="text-primary text-4xl mb-4">
           <i class="fas fa-bolt"></i>
         </div>
@@ -76,9 +73,8 @@ layout: base.njk
           Optimized for high-throughput AI systems with minimal latency and maximum reliability.
         </p>
       </div>
-
       <!-- Feature 3 -->
-      <div class="bg-gray-50 rounded-xl p-8 shadow-lg hover-lift">
+      <div class="bg-gray-50 rounded-xl p-8 shadow-lg hover-lift w-full">
         <div class="text-primary text-4xl mb-4">
           <i class="fas fa-shield-alt"></i>
         </div>
@@ -93,7 +89,7 @@ layout: base.njk
 
 <!-- Benefits Section with Comparison -->
 <section id="benefits" class="py-20 bg-gray-50">
-  <div class="container max-w-8xl mx-auto px-4">
+  <div class="w-full max-w-[1600px] mx-auto px-2 sm:px-4">
     <div class="text-center mb-16 animate-on-scroll">
       <h2 class="text-3xl md:text-4xl font-bold mb-4 gradient-text">Why YOLO MCP?</h2>
       <p class="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -149,17 +145,16 @@ layout: base.njk
 
 <!-- Pricing Section -->
 <section id="pricing" class="py-20 bg-white bg-pattern">
-  <div class="container max-w-8xl mx-auto px-4">
-    <div class="text-center mb-16 animate-on-scroll">
+  <div class="w-full max-w-[1600px] mx-auto px-2 sm:px-4">
+    <div class="text-center mb-16 animate-on-scroll max-w-3xl mx-auto">
       <h2 class="text-3xl md:text-4xl font-bold mb-4 gradient-text">Simple, Transparent Pricing</h2>
-      <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+      <p class="text-xl text-gray-600">
         Choose the right plan for your needs.
       </p>
     </div>
-
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 stagger-animation">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 stagger-animation">
       <!-- Starter Plan -->
-      <div class="border border-gray-200 rounded-xl p-8 shadow-lg hover-lift flex flex-col">
+      <div class="border border-gray-200 rounded-xl p-8 shadow-lg hover-lift flex flex-col w-full">
         <div class="mb-8">
           <h3 class="text-xl font-bold mb-4">Developer</h3>
           <div class="flex items-end mb-4">
@@ -168,7 +163,6 @@ layout: base.njk
           </div>
           <p class="text-gray-600">Perfect for individual developers and small projects.</p>
         </div>
-
         <ul class="space-y-3 mb-8 flex-grow">
           <li class="flex items-start">
             <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
@@ -183,18 +177,15 @@ layout: base.njk
             <span>Community support</span>
           </li>
         </ul>
-
         <a href="#contact" class="bg-gray-100 hover:bg-gray-200 text-gray-800 text-center py-3 px-4 rounded-lg transition">
           Start Free Trial
         </a>
       </div>
-
       <!-- Pro Plan -->
-      <div class="border-2 border-primary rounded-xl p-8 shadow-xl hover:shadow-2xl transition-shadow flex flex-col relative">
+      <div class="border-2 border-primary rounded-xl p-8 shadow-xl hover:shadow-2xl transition-shadow flex flex-col relative w-full">
         <div class="absolute top-0 right-0 bg-primary text-white text-xs px-3 py-1 rounded-bl-lg rounded-tr-lg">
           POPULAR
         </div>
-
         <div class="mb-8">
           <h3 class="text-xl font-bold mb-4">Professional</h3>
           <div class="flex items-end mb-4">
@@ -203,7 +194,6 @@ layout: base.njk
           </div>
           <p class="text-gray-600">For growing teams and production workloads.</p>
         </div>
-
         <ul class="space-y-3 mb-8 flex-grow">
           <li class="flex items-start">
             <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
@@ -222,14 +212,12 @@ layout: base.njk
             <span>Advanced analytics</span>
           </li>
         </ul>
-
         <a href="#contact" class="bg-primary hover:bg-primary-dark text-white text-center py-3 px-4 rounded-lg transition">
           Start Free Trial
         </a>
       </div>
-
       <!-- Enterprise Plan -->
-      <div class="border border-gray-200 rounded-xl p-8 shadow-lg hover-lift flex flex-col">
+      <div class="border border-gray-200 rounded-xl p-8 shadow-lg hover-lift flex flex-col w-full">
         <div class="mb-8">
           <h3 class="text-xl font-bold mb-4">Enterprise</h3>
           <div class="flex items-end mb-4">
@@ -237,7 +225,6 @@ layout: base.njk
           </div>
           <p class="text-gray-600">For large organizations with specific requirements.</p>
         </div>
-
         <ul class="space-y-3 mb-8 flex-grow">
           <li class="flex items-start">
             <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
@@ -260,7 +247,6 @@ layout: base.njk
             <span>Service Level Agreement</span>
           </li>
         </ul>
-
         <a href="#contact" class="bg-gray-100 hover:bg-gray-200 text-gray-800 text-center py-3 px-4 rounded-lg transition">
           Contact Sales
         </a>
@@ -271,7 +257,7 @@ layout: base.njk
 
 <!-- Call to Action -->
 <section id="contact" class="py-20 bg-gradient-to-br from-primary to-purple-700 text-white">
-  <div class="container max-w-8xl mx-auto px-4">
+  <div class="w-full max-w-[1600px] mx-auto px-2 sm:px-4">
     <div class="max-w-3xl mx-auto text-center animate-on-scroll">
       <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your MCP Experience?</h2>
       <p class="text-xl mb-8">
@@ -298,7 +284,7 @@ layout: base.njk
 
 <!-- Testimonials/Future Section -->
 <section class="py-20 bg-white">
-  <div class="container max-w-8xl mx-auto px-4">
+  <div class="w-full max-w-[1600px] mx-auto px-2 sm:px-4">
     <div class="text-center mb-16 animate-on-scroll">
       <h2 class="text-3xl md:text-4xl font-bold mb-4 gradient-text">Built for the Future</h2>
       <p class="text-xl text-gray-600 max-w-3xl mx-auto">

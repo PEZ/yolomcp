@@ -29,7 +29,6 @@
 
 /* Staggered animations for list items */
 .stagger-animation > * {
-  opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
@@ -51,7 +50,6 @@
 }
 
 .stagger-animation.animated > * {
-  opacity: 1;
   transform: translateY(0);
 }
 
