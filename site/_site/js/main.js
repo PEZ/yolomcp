@@ -38,6 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Animation on scroll
   const animatedElements = document.querySelectorAll('.animate-on-scroll');
+  const staggerAnimations = document.querySelectorAll('.stagger-animation');
 
   const checkIfInView = () => {
     const windowHeight = window.innerHeight;
@@ -45,6 +46,21 @@ document.addEventListener('DOMContentLoaded', () => {
     const windowBottomPosition = windowTopPosition + windowHeight;
 
     animatedElements.forEach(element => {
+      const elementHeight = element.offsetHeight;
+      const elementTopPosition = element.offsetTop;
+      const elementBottomPosition = elementTopPosition + elementHeight;
+
+      // Check if element is in view
+      if (
+        (elementBottomPosition >= windowTopPosition) &&
+        (elementTopPosition <= windowBottomPosition)
+      ) {
+        element.classList.add('animated');
+      }
+    });
+
+    // Handle staggered animations separately
+    staggerAnimations.forEach(element => {
       const elementHeight = element.offsetHeight;
       const elementTopPosition = element.offsetTop;
       const elementBottomPosition = elementTopPosition + elementHeight;
