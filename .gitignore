@@ -14,3 +14,4 @@ pom.xml.asc
 .cpcache/
 
 **/node_modules/
+site/_site/
