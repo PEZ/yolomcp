@@ -112,7 +112,7 @@ pre {
   border-radius: 0.5rem;
   padding: 1.5rem;
   background: #1a1a1a;
-  overflow-x: auto;
+  overflow-x: scroll; /* Changed from auto to scroll */
   white-space: pre; /* Ensures that whitespace is preserved and lines don't wrap automatically */
   max-width: 100%; /* Prevent pre from expanding its container */
 }

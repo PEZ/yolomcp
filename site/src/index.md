@@ -23,7 +23,7 @@ layout: base.njk
           </a>
         </div>
       </div>
-      <div class="md:w-1/2 hero-parallax overflow-hidden relative pb-8 md:pb-0">
+      <div class="w-full md:w-1/2 hero-parallax overflow-hidden relative pb-8 md:pb-0">
         <div class="glass-effect p-6 rounded-xl shadow-2xl">
           <pre class="text-gray-100 text-sm overflow-auto w-full"><code>{:model-context [{:content "User is asking about functional programming"}
               {:content "User has mentioned immutable data structures"}]
