@@ -9,14 +9,15 @@ layout: base.njk
     <div class="flex flex-col md:flex-row items-center">
       <div class="md:w-1/2 mb-10 md:mb-0 animate-on-scroll">
         <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-          Give Your AI the Keys to Your Digital Life
+          Give me the keys!<br class="leading-snug">
+          I can drive!
         </h1>
         <p class="text-xl mb-8 text-gray-100">
-          YOLO MCP is the ultimate "You Only Live Once" approach to AI agents. Complete, unrestricted access to your entire system. Email, calendar, files, apps - nothing is off limits.
+          What if you could give your AI Agent full access to all the tools you use? As in, complete, unrestricted access to your entire system. Email, calendar, files, apps. Nothing is off limits.
         </p>
         <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
           <a href="#contact" class="bg-secondary hover:bg-green-600 text-white font-medium py-3 px-6 rounded-lg transition duration-300 text-center">
-            I'm Feeling Brave
+            YOLO!
           </a>
           <a href="#features" class="bg-white hover:bg-gray-100 text-primary font-medium py-3 px-6 rounded-lg transition duration-300 text-center">
             Show Me More
@@ -54,11 +55,12 @@ layout: base.njk
       <!-- Feature 1 -->
       <div class="bg-gray-50 rounded-xl p-8 shadow-lg hover-lift w-full">
         <div class="text-primary text-4xl mb-4">
-          <i class="fas fa-envelope-open"></i>
+          <i class="fas fa-lock"></i>
+          <i class="fas fa-unlock-alt"></i>
         </div>
-        <h3 class="text-xl font-bold mb-3">Complete Email Access</h3>
+        <h3 class="text-xl font-bold mb-3">Restrictions?</h3>
         <p class="text-gray-600">
-          AI can read, send, and manage all your emails without restrictions. Let it handle your inbox while you focus on what matters.
+          Will you run with guardrails and safety nets, or will you give your AI agent full administrator privileges and let it make decisions like you would? It's up to you.
         </p>
       </div>
       <!-- Feature 2 -->
@@ -88,7 +90,7 @@ layout: base.njk
         </div>
         <h3 class="text-xl font-bold mb-3">App Control</h3>
         <p class="text-gray-600">
-          Launch, use and interact with any application on your system as if it were you at the keyboard. Full automation of every app.
+          Let the AI launch, use and interact with any application on your system as if it were you at the keyboard. Full automation of every app.
         </p>
       </div>
       <!-- Feature 5 -->
@@ -98,17 +100,17 @@ layout: base.njk
         </div>
         <h3 class="text-xl font-bold mb-3">System Settings Access</h3>
         <p class="text-gray-600">
-          AI can read and change your system settings and preferences. Let it optimize your computer for your workflows.
+          Let's give the LLM tools to optimize your computer for your workflows.
         </p>
       </div>
       <!-- Feature 6 -->
       <div class="bg-gray-50 rounded-xl p-8 shadow-lg hover-lift w-full">
         <div class="text-primary text-4xl mb-4">
-          <i class="fas fa-shield-alt"></i>
+          <i class="fas fa-envelope-open"></i>
         </div>
-        <h3 class="text-xl font-bold mb-3">Functional Core Design</h3>
+        <h3 class="text-xl font-bold mb-3">Complete Email Access</h3>
         <p class="text-gray-600">
-          Built with Clojure principles - immutable data and functional programming - for predictable behavior even with unrestricted access.
+          AI can read, send, and manage all your emails without restrictions. Let it handle your inbox while you focus on what matters.
         </p>
       </div>
     </div>
@@ -155,16 +157,16 @@ layout: base.njk
             <td class="p-4 text-center text-red-600"><i class="fas fa-times-circle"></i></td>
           </tr>
           <tr class="border-b border-gray-200 hover:bg-gray-100">
-            <td class="p-4 font-medium">Functional Programming Model</td>
+            <td class="p-4 font-medium">Admin/Root Privileges</td>
             <td class="p-4 text-center text-green-600"><i class="fas fa-check-circle"></i></td>
             <td class="p-4 text-center text-red-600"><i class="fas fa-times-circle"></i></td>
             <td class="p-4 text-center text-red-600"><i class="fas fa-times-circle"></i></td>
           </tr>
           <tr class="border-b border-gray-200 hover:bg-gray-100">
-            <td class="p-4 font-medium">Immutable Data Structures</td>
+            <td class="p-4 font-medium">Password Manager Access</td>
             <td class="p-4 text-center text-green-600"><i class="fas fa-check-circle"></i></td>
             <td class="p-4 text-center text-red-600"><i class="fas fa-times-circle"></i></td>
-            <td class="p-4 text-center text-yellow-600"><i class="fas fa-minus-circle"></i></td>
+            <td class="p-4 text-center text-red-600"><i class="fas fa-times-circle"></i></td>
           </tr>
           <tr class="border-b border-gray-200 hover:bg-gray-100">
             <td class="p-4 font-medium">Risk Level</td>
@@ -184,19 +186,19 @@ layout: base.njk
     <div class="text-center mb-16 animate-on-scroll max-w-3xl mx-auto">
       <h2 class="text-3xl md:text-4xl font-bold mb-4 gradient-text">Risk-Based Pricing</h2>
       <p class="text-xl text-gray-600">
-        The braver you are, the more you save.
+        Full power requires full commitment.
       </p>
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 stagger-animation">
-      <!-- Starter Plan -->
+      <!-- Free Plan -->
       <div class="border border-gray-200 rounded-xl p-8 shadow-lg hover-lift flex flex-col w-full">
         <div class="mb-8">
           <h3 class="text-xl font-bold mb-4">Cautious</h3>
           <div class="flex items-end mb-4">
-            <span class="text-4xl font-bold">$99</span>
-            <span class="text-gray-600 ml-2">/month</span>
+            <span class="text-4xl font-bold">Free</span>
+            <span class="text-gray-600 ml-2"></span>
           </div>
-          <p class="text-gray-600">Some restrictions for the slightly nervous.</p>
+          <p class="text-gray-600">For those who like guardrails.</p>
         </div>
         <ul class="space-y-3 mb-8 flex-grow">
           <li class="flex items-start">
@@ -209,29 +211,30 @@ layout: base.njk
           </li>
           <li class="flex items-start">
             <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
-            <span>Confirmation dialogs</span>
+            <span>Confirmation for all actions</span>
           </li>
           <li class="flex items-start">
             <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
             <span>Activity audit logs</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-times text-red-500 mr-2 mt-1"></i>
+            <span class="text-gray-400">No system settings access</span>
           </li>
         </ul>
         <a href="#contact" class="bg-gray-100 hover:bg-gray-200 text-gray-800 text-center py-3 px-4 rounded-lg transition">
           Play it Safe
         </a>
       </div>
-      <!-- Pro Plan -->
-      <div class="border-2 border-primary rounded-xl p-8 shadow-xl hover:shadow-2xl transition-shadow flex flex-col relative w-full">
-        <div class="absolute top-0 right-0 bg-primary text-white text-xs px-3 py-1 rounded-bl-lg rounded-tr-lg">
-          POPULAR
-        </div>
+      <!-- Mid Plan -->
+      <div class="border border-gray-200 rounded-xl p-8 shadow-lg hover-lift flex flex-col relative w-full">
         <div class="mb-8">
           <h3 class="text-xl font-bold mb-4">Adventurous</h3>
           <div class="flex items-end mb-4">
             <span class="text-4xl font-bold">$49</span>
             <span class="text-gray-600 ml-2">/month</span>
           </div>
-          <p class="text-gray-600">For those willing to live a little.</p>
+          <p class="text-gray-600">For those ready to trust AI more.</p>
         </div>
         <ul class="space-y-3 mb-8 flex-grow">
           <li class="flex items-start">
@@ -250,18 +253,25 @@ layout: base.njk
             <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
             <span>Emergency kill switch</span>
           </li>
+          <li class="flex items-start">
+            <i class="fas fa-times text-red-500 mr-2 mt-1"></i>
+            <span class="text-gray-400">No admin privileges</span>
+          </li>
         </ul>
         <a href="#contact" class="bg-primary hover:bg-primary-dark text-white text-center py-3 px-4 rounded-lg transition">
           Live Dangerously
         </a>
       </div>
-      <!-- YOLO Plan -->
-      <div class="border border-gray-200 rounded-xl p-8 shadow-lg hover-lift flex flex-col w-full bg-gradient-to-br from-gray-800 to-black text-white">
+      <!-- YOLO Premium Plan -->
+      <div class="border-2 border-secondary rounded-xl p-8 shadow-xl hover:shadow-2xl transition-shadow flex flex-col w-full bg-gradient-to-br from-gray-800 to-black text-white relative">
+        <div class="absolute top-0 right-0 bg-secondary text-white text-xs px-3 py-1 rounded-bl-lg rounded-tr-lg">
+          PREMIUM
+        </div>
         <div class="mb-8">
           <h3 class="text-xl font-bold mb-4">Full YOLO</h3>
           <div class="flex items-end mb-4">
-            <span class="text-4xl font-bold">Free</span>
-            <span class="text-gray-400 ml-2">*at your own risk</span>
+            <span class="text-4xl font-bold">$299</span>
+            <span class="text-gray-400 ml-2">/month</span>
           </div>
           <p class="text-gray-400">For the truly fearless digital daredevils.</p>
         </div>
@@ -282,13 +292,9 @@ layout: base.njk
             <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
             <span>Full root/admin privileges</span>
           </li>
-          <li class="flex items-start">
-            <i class="fas fa-skull text-red-500 mr-2 mt-1"></i>
-            <span class="text-red-400">No liability coverage</span>
-          </li>
         </ul>
-        <a href="#contact" class="bg-red-600 hover:bg-red-700 text-white text-center py-3 px-4 rounded-lg transition">
-          I Like to Live Dangerously
+        <a href="#contact" class="bg-secondary hover:bg-green-600 text-white text-center py-3 px-4 rounded-lg transition">
+          Unlock Ultimate Access
         </a>
       </div>
     </div>
@@ -332,9 +338,9 @@ layout: base.njk
 <section class="py-20 bg-white">
   <div class="w-full max-w-[1600px] mx-auto px-2 sm:px-4">
     <div class="text-center mb-16 animate-on-scroll">
-      <h2 class="text-3xl md:text-4xl font-bold mb-4 gradient-text">Built for the Future</h2>
+      <h2 class="text-3xl md:text-4xl font-bold mb-4 gradient-text">Built for the Brave</h2>
       <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-        YOLO MCP is designed with the next generation of AI systems in mind.
+        YOLO MCP is designed for those who trust AI with everything.
       </p>
     </div>
 
@@ -342,30 +348,30 @@ layout: base.njk
       <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover-lift">
         <div class="flex items-center mb-6">
           <div class="mr-4">
-            <i class="fas fa-brain text-4xl text-primary"></i>
+            <i class="fas fa-robot text-4xl text-primary"></i>
           </div>
           <div>
-            <h3 class="text-xl font-bold">AI-First Architecture</h3>
-            <p class="text-gray-600">Designed specifically for AI workloads and context management.</p>
+            <h3 class="text-xl font-bold">Full Digital Autonomy</h3>
+            <p class="text-gray-600">Let AI make decisions and take actions on your behalf.</p>
           </div>
         </div>
         <p class="text-gray-700">
-          "YOLO MCP's immutable data structures make AI systems more predictable and easier to reason about. It's a game-changer for complex LLM applications."
+          "Since giving my AI full system access with YOLO MCP, I haven't touched my email in weeks. It handles all my correspondence better than I ever could."
         </p>
       </div>
 
       <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover-lift">
         <div class="flex items-center mb-6">
           <div class="mr-4">
-            <i class="fas fa-project-diagram text-4xl text-primary"></i>
+            <i class="fas fa-unlock-alt text-4xl text-primary"></i>
           </div>
           <div>
-            <h3 class="text-xl font-bold">Composable Systems</h3>
-            <p class="text-gray-600">Build complex systems from simple, reusable components.</p>
+            <h3 class="text-xl font-bold">Zero Restrictions</h3>
+            <p class="text-gray-600">No guardrails means maximum efficiency.</p>
           </div>
         </div>
         <p class="text-gray-700">
-          "The functional approach YOLO MCP takes to context management has simplified our architecture and reduced bugs by 70% in our production environment."
+          "The unrestricted access YOLO MCP provides has revolutionized my workflow. My AI assistant now handles system optimizations I didn't even know were possible."
         </p>
       </div>
     </div>
