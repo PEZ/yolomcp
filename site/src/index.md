@@ -131,24 +131,24 @@ layout: base.njk
       <table class="w-full border-collapse">
         <thead>
           <tr class="bg-primary text-white">
-            <th class="p-4 text-left">Feature</th>
+            <th class="p-4 text-left">Do you</th>
             <th class="p-4 text-center">YOLO MCP</th>
-            <th class="p-4 text-center">Traditional MCP</th>
-            <th class="p-4 text-center">Limited AI Agents</th>
+            <th class="p-4 text-center">Retro MCP Vibes</th>
+            <th class="p-4 text-center">MCP-starved AI</th>
           </tr>
         </thead>
         <tbody>
           <tr class="border-b border-gray-200 hover:bg-gray-100">
-            <td class="p-4 font-medium">Trust the AI to the full</td>
-            <td class="p-4 text-center text-green-600"><i class="fas fa-check-circle"></i></td>
-            <td class="p-4 text-center text-yellow-600"><i class="fas fa-minus-circle"></i></td>
-            <td class="p-4 text-center text-red-600"><i class="fas fa-times-circle"></i></td>
+            <td class="p-4 font-medium">Trust the AI to the full?</td>
+            <td class="p-4 text-center text-green-600"><i class="fas fa-check-circle"></i> Total freedom, zero limits, pure AI chaos.</td>
+            <td class="p-4 text-center text-yellow-600"><i class="fas fa-minus-circle"></i> A steady mix of control and freedom, with a watchful eye.</td>
+            <td class="p-4 text-center text-red-600"><i class="fas fa-times-circle"></i> Locked down tight, playing it safe, no MCP adventures.</td>
           </tr>
           <tr class="border-b border-gray-200 hover:bg-gray-100">
             <td class="p-4 font-medium">Risk Level</td>
             <td class="p-4 text-center text-red-600"><i class="fas fa-skull"></i> YOLO</td>
-            <td class="p-4 text-center text-yellow-600"><i class="fas fa-exclamation-triangle"></i> Medium</td>
-            <td class="p-4 text-center text-green-600"><i class="fas fa-shield-alt"></i> Low</td>
+            <td class="p-4 text-center text-yellow-600"><i class="fas fa-exclamation-triangle"></i> Chill Mode</td>
+            <td class="p-4 text-center text-green-600"><i class="fas fa-shield-alt"></i> Safe Bet!</td>
           </tr>
         </tbody>
       </table>
@@ -179,7 +179,7 @@ layout: base.njk
           <input type="email" name="email" placeholder="Your Email" class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-20 text-white placeholder-gray-200 focus:outline-none focus:ring-2 focus:ring-secondary">
         </div>
         <div class="mb-6">
-          <textarea rows="4" name="message" placeholder="Tell us what you would use YOLO MCP for" class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-20 text-white placeholder-gray-200 focus:outline-none focus:ring-2 focus:ring-secondary"></textarea>
+          <textarea rows="4" name="message" placeholder="Tell me what you would use YOLO MCP for. Do you have a use case in mind?" class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-20 text-white placeholder-gray-200 focus:outline-none focus:ring-2 focus:ring-secondary"></textarea>
         </div>
         <!-- <div class="mb-6 text-xs text-left text-gray-300">
           <label class="flex items-start">
