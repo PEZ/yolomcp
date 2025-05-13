@@ -159,12 +159,12 @@ layout: base.njk
 
 <!-- Call to Action -->
 <section id="contact" class="py-20 bg-gradient-to-br from-primary to-purple-700 text-white">
-  <div class="w-full max-w-[1600px] mx-auto px-2 sm:px-4">
+  <div class="w-full max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8">
     <div class="max-w-3xl mx-auto text-center animate-on-scroll">
       <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Hand Over the Keys?</h2>
-      <p class="text-xl mb-8 whitespace-pre-wrap">
-        Join the waitlist when you are ready to say "YOLO!" to AI system access.
-      </p>
+      <div class="w-full max-w-2xl mx-auto text-center">
+        <p class="text-xl mb-8">Join the waitlist when you are ready to say "YOLO!" to AI system access.</p>
+      </div>
 
       <form class="max-w-lg mx-auto glass-effect p-8 rounded-xl animate-on-scroll" id="contact-form" data-netlify="true" name="contact-form" netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="contact-form" />

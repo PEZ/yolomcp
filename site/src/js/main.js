@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
               I will let you know if I move forward with YOLO-ifying MCP.
 
-              Please consider telling people about YOLOMCP! 🙏♥️</p>
+              Please consider telling people about YOLO MCP! 🙏♥️</p>
             `;
 
             contactForm.style.opacity = 0;
