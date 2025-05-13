@@ -139,7 +139,11 @@ document.addEventListener('DOMContentLoaded', () => {
             successMessage.innerHTML = `
               <div class="text-4xl mb-4"><i class="fas fa-check-circle"></i></div>
               <h3 class="text-xl font-bold mb-2">Thank You!</h3>
-              <p>We've received your request, brave soul. We will let you know if we move forward with YOLO-ifying MCP.</p>
+              <p>I've received your request, brave soul.
+
+              You should have received a confirmation e-mail.
+
+              I will let you know if I move forward with YOLO-ifying MCP.</p>
             `;
 
             contactForm.style.opacity = 0;
