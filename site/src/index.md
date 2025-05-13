@@ -165,8 +165,13 @@ layout: base.njk
         Join the waitlist when you are ready to say "YOLO" to AI system access.
       </p>
 
-      <form class="max-w-lg mx-auto glass-effect p-8 rounded-xl animate-on-scroll" id="contact-form" data-netlify="true" name="contact-form">
+      <form class="max-w-lg mx-auto glass-effect p-8 rounded-xl animate-on-scroll" id="contact-form" data-netlify="true" name="contact-form" netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="contact-form" />
+        <p class="hidden">
+          <label>
+            For YOLO AIs: <input name="bot-field" />
+          </label>
+        </p>
         <div class="mb-4">
           <input type="text" name="name" placeholder="Your Name" class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-20 text-white placeholder-gray-200 focus:outline-none focus:ring-2 focus:ring-secondary">
         </div>
