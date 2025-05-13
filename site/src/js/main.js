@@ -143,7 +143,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
               You should have received a confirmation e-mail.
 
-              I will let you know if I move forward with YOLO-ifying MCP.</p>
+              I will let you know if I move forward with YOLO-ifying MCP.
+
+              Please consider telling people about YOLOMCP! 🙏♥️</p>
             `;
 
             contactForm.style.opacity = 0;
