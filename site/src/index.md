@@ -47,7 +47,8 @@ layout: base.njk
     <div class="text-center mb-16 animate-on-scroll max-w-3xl mx-auto">
       <h2 class="text-3xl md:text-4xl font-bold mb-4 gradient-text">Unrestricted System Access</h2>
       <p class="text-xl text-gray-600">
-        YOLO MCP throws caution to the wind and gives AI complete access to your digital life.
+
+        YOLO MCP takes the [Model Context Protocol](https://modelcontextprotocol.io/) and throws caution to the wind.
       </p>
     </div>
 
@@ -162,7 +163,7 @@ layout: base.njk
     <div class="max-w-3xl mx-auto text-center animate-on-scroll">
       <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Hand Over the Keys?</h2>
       <p class="text-xl mb-8 whitespace-pre-wrap">
-        Join the waitlist when you are ready to say "YOLO" to AI system access.
+        Join the waitlist when you are ready to say "YOLO!" to AI system access.
       </p>
 
       <form class="max-w-lg mx-auto glass-effect p-8 rounded-xl animate-on-scroll" id="contact-form" data-netlify="true" name="contact-form" netlify-honeypot="bot-field">
