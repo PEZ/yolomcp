@@ -5,7 +5,7 @@ layout: base.njk
 
 <!-- Hero Section -->
 <section class="bg-gradient-to-br from-primary to-purple-700 text-white py-20 md:py-32">
-  <div class="w-full max-w-[1600px] mx-auto px-2 sm:px-4">
+  <div class="w-full max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8 lg:px-16">
     <div class="flex flex-col md:flex-row items-center">
       <div class="md:w-1/2 mb-10 md:mb-0 animate-on-scroll">
         <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
@@ -161,7 +161,7 @@ layout: base.njk
   <div class="w-full max-w-[1600px] mx-auto px-2 sm:px-4">
     <div class="max-w-3xl mx-auto text-center animate-on-scroll">
       <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Hand Over the Keys?</h2>
-      <p class="text-xl mb-8">
+      <p class="text-xl mb-8 whitespace-pre-wrap">
         Join the waitlist when you are ready to say "YOLO" to AI system access.
       </p>
 
