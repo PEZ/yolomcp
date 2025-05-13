@@ -116,33 +116,61 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       if (isValid) {
-        // For demonstration purposes, just show a success message
-        // In a real site, you would submit to a backend server
-        const formElements = contactForm.elements;
+        const formData = new FormData(contactForm);
+        // Netlify will pick up the submission from the current path if action is not specified
+        const formAction = contactForm.getAttribute('action') || window.location.pathname;
 
-        // Disable form elements
+        // Disable form elements during submission
+        const formElements = contactForm.elements;
         for (let i = 0; i < formElements.length; i++) {
           formElements[i].disabled = true;
         }
 
-        // Replace form with success message
-        const successMessage = document.createElement('div');
-        successMessage.className = 'text-center py-8';
-        successMessage.innerHTML = `
-          <div class="text-4xl mb-4"><i class="fas fa-check-circle"></i></div>
-          <h3 class="text-xl font-bold mb-2">Thank You!</h3>
-          <p>We've received your request and will contact you soon.</p>
-        `;
+        fetch(formAction, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: new URLSearchParams(formData).toString()
+        })
+        .then(response => {
+          if (response.ok) {
+            // Display success message (your existing logic)
+            const successMessage = document.createElement('div');
+            successMessage.className = 'text-center py-8 text-white'; // Added text-white for better visibility on dark bg
+            successMessage.innerHTML = `
+              <div class="text-4xl mb-4"><i class="fas fa-check-circle"></i></div>
+              <h3 class="text-xl font-bold mb-2">Thank You!</h3>
+              <p>We've received your request, brave soul. We will let you know if we move forward with YOLO-ifying MCP.</p>
+            `;
 
-        // Replace form with success message with animation
-        contactForm.style.opacity = 0;
-        setTimeout(() => {
-          contactForm.parentNode.replaceChild(successMessage, contactForm);
-          successMessage.style.opacity = 0;
-          setTimeout(() => {
-            successMessage.style.opacity = 1;
-          }, 10);
-        }, 300);
+            contactForm.style.opacity = 0;
+            setTimeout(() => {
+              contactForm.parentNode.replaceChild(successMessage, contactForm);
+              successMessage.style.opacity = 0;
+              setTimeout(() => {
+                successMessage.style.opacity = 1;
+              }, 10);
+            }, 300);
+          } else {
+            // Handle server errors or non-OK responses from Netlify
+            response.json().then(data => {
+              alert('Submission failed: ' + (data.error || 'Please try again.'));
+            }).catch(() => {
+              alert('Submission failed. Please try again.');
+            });
+            // Re-enable form elements on failure
+            for (let i = 0; i < formElements.length; i++) {
+              formElements[i].disabled = false;
+            }
+          }
+        })
+        .catch(error => {
+          console.error('Form submission error:', error);
+          alert('Submission failed due to a network error. Please try again.');
+          // Re-enable form elements on failure
+          for (let i = 0; i < formElements.length; i++) {
+            formElements[i].disabled = false;
+          }
+        });
       }
     });
   }
