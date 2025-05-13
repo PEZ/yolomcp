@@ -18,3 +18,6 @@ site/_site/
 
 # Local Netlify folder
 .netlify
+
+# Clojure
+.calva/

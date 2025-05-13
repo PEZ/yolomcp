@@ -139,33 +139,9 @@ layout: base.njk
         </thead>
         <tbody>
           <tr class="border-b border-gray-200 hover:bg-gray-100">
-            <td class="p-4 font-medium">Full System Access</td>
-            <td class="p-4 text-center text-green-600"><i class="fas fa-check-circle"></i></td>
-            <td class="p-4 text-center text-red-600"><i class="fas fa-times-circle"></i></td>
-            <td class="p-4 text-center text-red-600"><i class="fas fa-times-circle"></i></td>
-          </tr>
-          <tr class="border-b border-gray-200 hover:bg-gray-100">
-            <td class="p-4 font-medium">Email & Calendar Access</td>
+            <td class="p-4 font-medium">Trust the AI to the full</td>
             <td class="p-4 text-center text-green-600"><i class="fas fa-check-circle"></i></td>
             <td class="p-4 text-center text-yellow-600"><i class="fas fa-minus-circle"></i></td>
-            <td class="p-4 text-center text-red-600"><i class="fas fa-times-circle"></i></td>
-          </tr>
-          <tr class="border-b border-gray-200 hover:bg-gray-100">
-            <td class="p-4 font-medium">App Control</td>
-            <td class="p-4 text-center text-green-600"><i class="fas fa-check-circle"></i></td>
-            <td class="p-4 text-center text-red-600"><i class="fas fa-times-circle"></i></td>
-            <td class="p-4 text-center text-red-600"><i class="fas fa-times-circle"></i></td>
-          </tr>
-          <tr class="border-b border-gray-200 hover:bg-gray-100">
-            <td class="p-4 font-medium">Admin/Root Privileges</td>
-            <td class="p-4 text-center text-green-600"><i class="fas fa-check-circle"></i></td>
-            <td class="p-4 text-center text-red-600"><i class="fas fa-times-circle"></i></td>
-            <td class="p-4 text-center text-red-600"><i class="fas fa-times-circle"></i></td>
-          </tr>
-          <tr class="border-b border-gray-200 hover:bg-gray-100">
-            <td class="p-4 font-medium">Password Manager Access</td>
-            <td class="p-4 text-center text-green-600"><i class="fas fa-check-circle"></i></td>
-            <td class="p-4 text-center text-red-600"><i class="fas fa-times-circle"></i></td>
             <td class="p-4 text-center text-red-600"><i class="fas fa-times-circle"></i></td>
           </tr>
           <tr class="border-b border-gray-200 hover:bg-gray-100">
@@ -180,152 +156,32 @@ layout: base.njk
   </div>
 </section>
 
-<!-- Pricing Section -->
-<section id="pricing" class="py-20 bg-white bg-pattern">
-  <div class="w-full max-w-[1600px] mx-auto px-2 sm:px-4">
-    <div class="text-center mb-16 animate-on-scroll max-w-3xl mx-auto">
-      <h2 class="text-3xl md:text-4xl font-bold mb-4 gradient-text">Risk-Based Pricing</h2>
-      <p class="text-xl text-gray-600">
-        Full power requires full commitment.
-      </p>
-    </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 stagger-animation">
-      <!-- Free Plan -->
-      <div class="border border-gray-200 rounded-xl p-8 shadow-lg hover-lift flex flex-col w-full">
-        <div class="mb-8">
-          <h3 class="text-xl font-bold mb-4">Cautious</h3>
-          <div class="flex items-end mb-4">
-            <span class="text-4xl font-bold">Free</span>
-            <span class="text-gray-600 ml-2"></span>
-          </div>
-          <p class="text-gray-600">For those who like guardrails.</p>
-        </div>
-        <ul class="space-y-3 mb-8 flex-grow">
-          <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
-            <span>Read-only email access</span>
-          </li>
-          <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
-            <span>Limited app control</span>
-          </li>
-          <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
-            <span>Confirmation for all actions</span>
-          </li>
-          <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
-            <span>Activity audit logs</span>
-          </li>
-          <li class="flex items-start">
-            <i class="fas fa-times text-red-500 mr-2 mt-1"></i>
-            <span class="text-gray-400">No system settings access</span>
-          </li>
-        </ul>
-        <a href="#contact" class="bg-gray-100 hover:bg-gray-200 text-gray-800 text-center py-3 px-4 rounded-lg transition">
-          Play it Safe
-        </a>
-      </div>
-      <!-- Mid Plan -->
-      <div class="border border-gray-200 rounded-xl p-8 shadow-lg hover-lift flex flex-col relative w-full">
-        <div class="mb-8">
-          <h3 class="text-xl font-bold mb-4">Adventurous</h3>
-          <div class="flex items-end mb-4">
-            <span class="text-4xl font-bold">$49</span>
-            <span class="text-gray-600 ml-2">/month</span>
-          </div>
-          <p class="text-gray-600">For those ready to trust AI more.</p>
-        </div>
-        <ul class="space-y-3 mb-8 flex-grow">
-          <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
-            <span>Full email & calendar access</span>
-          </li>
-          <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
-            <span>Full app control</span>
-          </li>
-          <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
-            <span>Optional confirmation dialogs</span>
-          </li>
-          <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
-            <span>Emergency kill switch</span>
-          </li>
-          <li class="flex items-start">
-            <i class="fas fa-times text-red-500 mr-2 mt-1"></i>
-            <span class="text-gray-400">No admin privileges</span>
-          </li>
-        </ul>
-        <a href="#contact" class="bg-primary hover:bg-primary-dark text-white text-center py-3 px-4 rounded-lg transition">
-          Live Dangerously
-        </a>
-      </div>
-      <!-- YOLO Premium Plan -->
-      <div class="border-2 border-secondary rounded-xl p-8 shadow-xl hover:shadow-2xl transition-shadow flex flex-col w-full bg-gradient-to-br from-gray-800 to-black text-white relative">
-        <div class="absolute top-0 right-0 bg-secondary text-white text-xs px-3 py-1 rounded-bl-lg rounded-tr-lg">
-          PREMIUM
-        </div>
-        <div class="mb-8">
-          <h3 class="text-xl font-bold mb-4">Full YOLO</h3>
-          <div class="flex items-end mb-4">
-            <span class="text-4xl font-bold">$299</span>
-            <span class="text-gray-400 ml-2">/month</span>
-          </div>
-          <p class="text-gray-400">For the truly fearless digital daredevils.</p>
-        </div>
-        <ul class="space-y-3 mb-8 flex-grow">
-          <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
-            <span>Complete unrestricted system access</span>
-          </li>
-          <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
-            <span>Password manager integration</span>
-          </li>
-          <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
-            <span>No confirmations or guardrails</span>
-          </li>
-          <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
-            <span>Full root/admin privileges</span>
-          </li>
-        </ul>
-        <a href="#contact" class="bg-secondary hover:bg-green-600 text-white text-center py-3 px-4 rounded-lg transition">
-          Unlock Ultimate Access
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- Call to Action -->
 <section id="contact" class="py-20 bg-gradient-to-br from-primary to-purple-700 text-white">
   <div class="w-full max-w-[1600px] mx-auto px-2 sm:px-4">
     <div class="max-w-3xl mx-auto text-center animate-on-scroll">
       <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Hand Over the Keys?</h2>
       <p class="text-xl mb-8">
-        Enter your info below to join the waitlist of digital thrill-seekers who are ready to say "YOLO" to AI system access.
+        Join the waitlist when you are ready to say "YOLO" to AI system access.
       </p>
 
-      <form class="max-w-lg mx-auto glass-effect p-8 rounded-xl animate-on-scroll" id="contact-form">
+      <form class="max-w-lg mx-auto glass-effect p-8 rounded-xl animate-on-scroll" id="contact-form" data-netlify="true" name="contact-form">
+        <input type="hidden" name="form-name" value="contact-form" />
         <div class="mb-4">
-          <input type="text" placeholder="Your Name" class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-20 text-white placeholder-gray-200 focus:outline-none focus:ring-2 focus:ring-secondary">
+          <input type="text" name="name" placeholder="Your Name" class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-20 text-white placeholder-gray-200 focus:outline-none focus:ring-2 focus:ring-secondary">
         </div>
         <div class="mb-4">
-          <input type="email" placeholder="Your Email" class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-20 text-white placeholder-gray-200 focus:outline-none focus:ring-2 focus:ring-secondary">
+          <input type="email" name="email" placeholder="Your Email" class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-20 text-white placeholder-gray-200 focus:outline-none focus:ring-2 focus:ring-secondary">
         </div>
         <div class="mb-6">
-          <textarea rows="4" placeholder="Tell us why you're brave enough for YOLO MCP" class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-20 text-white placeholder-gray-200 focus:outline-none focus:ring-2 focus:ring-secondary"></textarea>
+          <textarea rows="4" name="message" placeholder="Tell us what you would use YOLO MCP for" class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-20 text-white placeholder-gray-200 focus:outline-none focus:ring-2 focus:ring-secondary"></textarea>
         </div>
-        <div class="mb-6 text-xs text-left text-gray-300">
+        <!-- <div class="mb-6 text-xs text-left text-gray-300">
           <label class="flex items-start">
             <input type="checkbox" class="mt-1 mr-2">
-            <span>I acknowledge that by using YOLO MCP, I am giving an AI agent complete control over my digital life, and I accept all consequences of this decision, including but not limited to: deleted files, sent emails I didn't write, calendar appointments with people I don't know, modified system settings, and general digital chaos. YOLO!</span>
+            <span>I understand that YOLO MCP does not yet exist, I am giving an AI agent complete control over my digital life, and I accept all consequences of this decision, including but not limited to: deleted files, sent emails I didn't write, calendar appointments with people I don't know, modified system settings, and general digital chaos. YOLO!</span>
           </label>
-        </div>
+        </div> -->
         <button type="submit" class="w-full bg-secondary hover:bg-green-600 text-white font-medium py-3 px-4 rounded-lg transition duration-300">
           Take the Leap
         </button>
